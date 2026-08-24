@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial;
+    background: #eeeeee;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.lamp {
+    margin-top: 30px;
+}
+
+#bulb {
+    width: 120px;
+}
+
+.thread-box {
+    width: 100px;
+    height: 180px;
+    margin: auto;
+    position: relative;
+}
+
+#thread {
+    width: 3px;
+    height: 120px;
+    background: #222;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#handle {
+    width: 20px;
+    height: 20px;
+    background: #222;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: grab;
+    touch-action: none;
+}
+
+#handle:active {
+    cursor: grabbing;
+}
+
+#message {
+    font-size: 18px;
+}
